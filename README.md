@@ -3,7 +3,7 @@ Google App Script Cache with persistence in DB
 
 With this simple cache you can truly persist in GAS (Google Apps Script) cache items: in cache and in scriptDB. Cache is volatile, so, with persistence in scriptDB you can guarantee items are available always.
 
-It splits big cache items into little ones and it reassembles them when you request for a key.
+It splits big items into little ones and it reassembles them when you request for a key.
 
 How to use
 -----------
