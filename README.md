@@ -32,6 +32,6 @@ Sample code
 		  }else{
 		    Logger.log("from cache")
 		  }
-          Logger.log(JSON.stringify(c))
+		  
 		  return ContentService.createTextOutput(JSON.stringify(c)).setMimeType(ContentService.MimeType.JSON);;
 		}
